@@ -1,0 +1,92 @@
+{
+    "products": [
+        {
+            "id":1,
+            "productName": "Renew Run",
+            "productCategory": "Running",
+            "productPrice": 99.99,
+            "size":[5,6,7,8,9,10],
+            "productImage": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/74cf523d-5a67-4c35-b59b-04bec73db805/renew-run-4-road-running-shoes-86wr4T.png"
+        },
+        {
+            "id":2,
+            "productName": "Zoom Fly",
+            "productCategory": "Running",
+            "productPrice": 149.99,
+            "size":[5,6,7,8,9,10],
+            "productImage": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4c8ff1d9-db47-42fd-a6a7-3ec82195b26a/zoom-fly-5-road-running-shoes-3sF4CW.png"
+        },
+        {
+            "id":3,
+            "productName":"Vomero",
+            "productCategory":"Running",
+            "productPrice":139.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0b70a878-8320-489e-8e8b-55a71931af9e/vomero-16-road-running-shoes-07Tngd.png"
+        },
+        {
+            "id":4,
+            "productName":"Quest",
+            "productCategory":"Running",
+            "productPrice":154.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cfe710d8-fab1-4c1c-b85a-8096099572e3/quest-5-road-running-shoes-VFHN0m.png"
+        },
+        {
+            "id":5,
+            "productName":"Tiempo Legend",
+            "productCategory":"Football",
+            "productPrice":154.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0d9f184b-8fe9-41a4-ab77-b15b2d5105b6/tiempo-legend-10-academy-multi-ground-football-boot-gthDNJ.png"
+        },
+        {
+            "id":6,
+            "productName":"Phantom Luna",
+            "productCategory":"Football",
+            "productPrice":174.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6d809064-e684-4e17-bcef-00a4b908c18f/phantom-luna-football-boot-8VB9rp.png"
+        },
+        {
+            "id":7,
+            "productName":"Mercurial Vapor",
+            "productCategory":"Football",
+            "productPrice":174.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d0ea447-343a-499d-a6ef-fca3f95b9e3a/mercurial-vapor-15-elite-football-boot-9Mbrnv.png"
+        },
+        {
+            "id":8,
+            "productName":"LeBron XX Premium",
+            "productCategory":"Basketball",
+            "productPrice":199.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b06112c0-d479-42d0-8e73-0743c2e28eaa/lebron-xx-ep-basketball-shoes-nPKcbs.png"
+        },
+        {
+            "id":9,
+            "productName":"Jordan One Take 4",
+            "productCategory":"Basketball",
+            "productPrice":119.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef8aa287-3fcf-4674-b6ab-f8dd5b98023e/jordan-one-take-4-pf-shoes-v5trdl.png"
+        },
+        {
+            "id":10,
+            "productName":"KD Trey 5",
+            "productCategory":"Basketball",
+            "productPrice":159.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9c8a1a17-ef66-4231-9106-65ed5b71b9b8/kd-trey-5-ep-basketball-shoes-mkllTG.png"
+        },
+        {
+            "id":11,
+            "productName":"Elevate 3",
+            "productCategory":"Basketball",
+            "productPrice":89.99,
+            "size":[5,6,7,8,9,10],
+            "productImage":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6a773a8c-1dcb-4559-9e65-40d2b9917c2b/elevate-3-basketball-shoes-QT43Gj.png"
+        }
+    ]
+}
