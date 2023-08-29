@@ -16,14 +16,6 @@ export const cartSlice = createSlice({
                 return cart.id !== action.payload;
             });
         },
-        updateCart: (state, action) => {
-            let itemIndex = state.carts
-                .map((data) => data.id)
-                .indexOf(action.payload.id);
-            let cartItem = state.carts;
-            cartItem[itemIndex] = action.payload;
-            state.carts = cartItem;
-        },
     },
 });
 
