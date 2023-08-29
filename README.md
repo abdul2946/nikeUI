@@ -4,8 +4,8 @@
 
 ## How to run the project 
 
-Step 1: Open Terminal and run `npm start`<br/>
-Step 2: Open another Terminal and run `npx json-server --watch data/products.json --port 8000`
+Step 1: Open Terminal and run <br/>`npm start`<br/>
+Step 2: Open another Terminal and run <br/>`npx json-server --watch data/products.json --port 8000`
 
 ### Thank You from
 `Syed Abdul Azim`
