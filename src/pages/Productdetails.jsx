@@ -39,14 +39,14 @@ const Productdetails = () => {
                 return (
                     <div key={data.id}>
                         <div className="md:grid md:grid-cols-2 justify-center p-10">
-                            <div>
+                            <div className="p-5">
                                 <img
                                     src={data.productImage}
                                     className="lg:w-96 xl:w-4/6 2xl:w-2/4 mx-auto shadow-lg rounded-xl"
                                     alt=""
                                 />
                             </div>
-                            <div className="flex flex-col min-h-full">
+                            <div className="flex flex-col min-h-full p-5">
                                 <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl">
                                     {data.productName}
                                 </h1>
