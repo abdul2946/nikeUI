@@ -1,9 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Product = ({ data }) => {
+    const path = `/product/${data.id}`
     return (
-        <NavLink to="/details">
+        <Link to={path}>
             <div className="card card-compact bg-base-100 shadow-xl">
                 <figure>
                     <img
@@ -18,7 +19,7 @@ const Product = ({ data }) => {
                     
                 </div>
             </div>
-        </NavLink>
+        </Link>
     );
 };
 

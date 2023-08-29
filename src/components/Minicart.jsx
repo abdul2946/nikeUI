@@ -1,6 +1,6 @@
 import React from "react";
 import MinicartItem from "./MinicartItem";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Minicart = () => {
     return (
@@ -43,12 +43,12 @@ const Minicart = () => {
                                     </div>
                                 </div>
                                 <div className="mx-auto w-full space-y-4">
-                                    <NavLink to="/cart" className="btn btn-neutral mx-auto w-full">
+                                    <Link to="/cart" className="btn btn-neutral mx-auto w-full">
                                         View Cart
-                                    </NavLink>
-                                    <button className="btn btn-primary mx-auto w-full">
+                                    </Link>
+                                    <Link className="btn btn-primary mx-auto w-full" to="/error">
                                         Checkout
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

@@ -1,27 +1,27 @@
 import Minicart from "./Minicart";
 
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <NavLink
+                    <Link
                         to="/"
                         className="btn btn-ghost normal-case text-xl"
                     >
                         shopNike
-                    </NavLink>
+                    </Link>
                     <ul className="menu menu-horizontal  space-x-3 font-semibold">
                         <li>
-                            <NavLink to="/">Home</NavLink>
+                            <Link to="/">Home</Link>
                         </li>
 
                         <li>
-                            <NavLink to="/product" className="btn-ghost">
-                                Shop
-                            </NavLink>
+                            <Link to="/product" className="btn-ghost">
+                                Products
+                            </Link>
                         </li>
                     </ul>
                 </div>

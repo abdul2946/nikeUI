@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Showcase1 = () => {
     const [products, setProducts] = useState([]);
@@ -16,15 +16,14 @@ const Showcase1 = () => {
     return (
         <div className="p-10 mx-auto">
             <h1 className="font-bold text-2xl text-center">
-                Featured Products
+                Leatest Offerings
             </h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 justify-center my-10">
-                {products.slice(0, 4).map((product) => {
+                {products.slice(products.length - 4, products.length).map((product) => {
                     return (
-                        <NavLink to="/details">
+                        <Link to={`/product/${product.id}`} key={product.id}>
                             <div
-                                className="card bg-base-100 shadow-xl"
-                                key={product.id}
+                                className="card bg-base-100 shadow-xl"    
                             >
                                 <figure>
                                     <img
@@ -34,15 +33,15 @@ const Showcase1 = () => {
                                     />
                                 </figure>
                                 <div className="p-4">
-                                        <h2 className="font-bold text-xl">
-                                            {product.productName}
-                                        </h2>
-                                        <p className="my-auto ml-auto font-semibold text-sky-500">
-                                            ${product.productPrice}
-                                        </p>
+                                    <h2 className="font-bold text-xl">
+                                        {product.productName}
+                                    </h2>
+                                    <p className="my-auto ml-auto font-semibold text-sky-500">
+                                        ${product.productPrice}
+                                    </p>
                                 </div>
                             </div>
-                        </NavLink>
+                        </Link>
                     );
                 })}
             </div>

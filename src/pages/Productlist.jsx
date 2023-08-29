@@ -1,8 +1,4 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-
 import { useState, useEffect } from "react";
-import Footer from "../components/Footer";
 import Product from "../components/Product";
 
 const Productlist = () => {
@@ -31,10 +27,7 @@ const Productlist = () => {
     
 
     return (
-        <div className="flex flex-col min-h-screen">
-            <Navbar></Navbar>
-
-            <div className="px-6 my-2">
+        <div className="px-6 my-2">
                 <h1 className="font-bold text-3xl text-center">Explore</h1>
                 <div className="w-full">
                     {/* Category Sitching buttons */}
@@ -69,19 +62,16 @@ const Productlist = () => {
                    {
                     data.map((data) => {
                         return(
-                            <div key={data.id}>
+                            
 
-                            <Product data={data}/>
-                            </div>
+                            <Product key={data.id} data={data}/>
+                            
                         )
                     })
                    } 
                 </div>
             </div>
-            <div className="mt-auto">
-                <Footer></Footer>
-            </div>
-        </div>
+        
     );
 };
 
