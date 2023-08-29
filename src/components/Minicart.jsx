@@ -13,13 +13,6 @@ const Minicart = () => {
                             className="drawer-toggle"
                         />
                         <div className="drawer-content">
-                            {/* Page content here */}
-                            {/* <label
-                                htmlFor="my-drawer-4"
-                                className="drawer-button btn btn-primary"
-                            >
-                                Open drawer
-                            </label> */}
                             <label htmlFor="my-drawer-4" className="indicator">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +36,6 @@ const Minicart = () => {
                                 className="drawer-overlay"
                             ></label>
                             <div className="menu p-6 w-96 min-h-full bg-base-200 text-base-content flex-col justify-between">
-                                {/* Sidebar content here */}
                                 <div>
                                     <p className="font-bold text-2xl">Cart</p>
                                     <div className="w-full mx-auto space-y-2">

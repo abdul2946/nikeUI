@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Showcase1 = () => {
     const [products, setProducts] = useState([]);
@@ -18,28 +19,30 @@ const Showcase1 = () => {
                 Featured Products
             </h1>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 justify-center my-10">
-                {products.slice(0,4).map((product) => {
+                {products.slice(0, 4).map((product) => {
                     return (
-                        <div className="card bg-base-100 shadow-xl">
-                            <figure>
-                                <img
-                                    src={product.productImage}
-                                    alt="Shoes"
-                                    className="md:h-72 lg:h-52 lx:h-72 2xl:h-96 w-full object-cover"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">{product.productName}</h2>
-                                <p>
-                                    ${product.productPrice}
-                                </p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">
-                                        Add to Cart
-                                    </button>
+                        <NavLink to="/details">
+                            <div
+                                className="card bg-base-100 shadow-xl"
+                                key={product.id}
+                            >
+                                <figure>
+                                    <img
+                                        src={product.productImage}
+                                        alt="Shoes"
+                                        className="md:h-72 lg:h-52 lx:h-72 2xl:h-96 w-full object-cover"
+                                    />
+                                </figure>
+                                <div className="p-4">
+                                        <h2 className="font-bold text-xl">
+                                            {product.productName}
+                                        </h2>
+                                        <p className="my-auto ml-auto font-semibold text-sky-500">
+                                            ${product.productPrice}
+                                        </p>
                                 </div>
                             </div>
-                        </div>
+                        </NavLink>
                     );
                 })}
             </div>
