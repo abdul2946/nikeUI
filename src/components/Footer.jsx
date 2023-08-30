@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p>
-                        Copyright © 2023 - All right reserved by Runtime Solution
+                        Copyright © 2023 - All right reserved by Runtime Solution Pvt. Ltd.
                         Ltd
                     </p>
                 </div>

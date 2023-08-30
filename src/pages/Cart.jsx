@@ -17,7 +17,7 @@ const Cart = () => {
 
     console.log("--------------")
 
-    return(total + item.productPrice)},0)}</p>
+    return(total + item.data.productPrice)},0)}</p>
                 <Link className="btn btn-primary" to="/error">Chechout</Link>
             </div>
         </div>
