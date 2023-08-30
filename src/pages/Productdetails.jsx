@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import { useDispatch } from "react-redux";
 import { addCart } from "../store/slice/cartSlice";
@@ -84,9 +84,9 @@ const Productdetails = () => {
                                     <button type="submit" className="btn btn-neutral px-5" onClick={()=> addToCart(data)}>
                                         Add to Cart
                                     </button>
-                                    <button className="btn btn-primary px-5">
+                                    <Link className="btn btn-primary px-5" to="/error">
                                         Buy Now
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
