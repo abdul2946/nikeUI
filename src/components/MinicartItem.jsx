@@ -17,11 +17,11 @@ const MinicartItem = () => {
                 return (
                     <div className="mt-10 flex rounded-lg shadow-lg overflow-hidden" key={cart.id}>
                         <div className="w-36">
-                            <img src={cart.productImage} alt="" className="object-cover" />
+                            <img src={cart.data.productImage} alt="" className="object-cover" />
                         </div>
                         <div className="p-4 flex flex-col">
-                            <p className="font-bold text-lg">{cart.productName}</p>
-                            <p className="font-semibold text-sky-500">$ {cart.productPrice}</p>
+                            <p className="font-bold text-lg">{cart.data.productName}</p>
+                            <p className="font-semibold text-sky-500">$ {cart.data.productPrice}</p>
                             <div className="flex space-x-3 ">
                             </div>
                             <div className="mt-auto">
